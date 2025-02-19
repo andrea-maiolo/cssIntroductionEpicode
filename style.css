@@ -42,3 +42,8 @@ h6 {
   border-radius: 6px;
   background: linear-gradient(#465c69, #3e461d);
 }
+
+.lista {
+  padding: 0;
+  list-style: none;
+}
