@@ -1,11 +1,44 @@
 body {
-  font-family: Arial, sans-serif;
-  max-width: 800px;
-  margin: auto;
+  margin: 0;
+  font-family: "Montserrat";
+}
+
+.main-section {
   padding: 20px;
 }
 
-img {
+.image-container {
   width: 100%;
-  height: auto;
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(reinaldo-photography--NEGehNFXF0-unsplash.jpg);
+}
+
+.location {
+  font-family: "Prata";
+  font-size: 64px;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+
+#secondTitle {
+  font-size: 24px;
+  font-weight: 400;
+  margin-top: 0;
+}
+
+#linkImageAuthor {
+  font-weight: 600;
+  font-style: italic;
+}
+
+h6 {
+  padding: 22px;
+  margin-bottom: 0px;
+  margin-top: 56px;
+  color: #fff;
+  border-radius: 6px;
+  background: linear-gradient(#465c69, #3e461d);
 }

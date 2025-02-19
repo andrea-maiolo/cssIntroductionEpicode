@@ -4,55 +4,94 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- prata -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prata&display=swap" rel="stylesheet">
+    <!-- montserrat 400 italic -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap" rel="stylesheet">
+    <!-- montserrat 400 italic -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,638&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
     <title>Css prep</title>
 
 </head>
 
 <body>
-    <img src="reinaldo-photography--NEGehNFXF0-unsplash.jpg" alt="scogli" />
-    <p>Photo by <a
-            href="https://unsplash.com/@reinaldogaranito?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Reinaldo
-            Photography</a> on <a
-            href="https://unsplash.com/photos/a-waterfall-on-the-side-of-a-cliff-next-to-the-ocean--NEGehNFXF0?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
-        </a></p>
+    <div class="image-container"></div>
 
-    <h1>Waterfall, Madeira, Portugal</h1>
-    <h4>This stunning waterfall in Madeira, Portugal, cascades down rugged
-        cliffs amidst lush greenery, offering a
-        breathtaking natural escape.
-    </h4>
-    <hr />
+    <div class="main-section">
+        <h1 class="location">Waterfall</h1>
+        <h3 class="location" id="secondTitle">Madeira, Portugal.</h3>
+        <p>Photo by <a id="linkImageAuthor"
+                href="https://unsplash.com/@reinaldogaranito?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Reinaldo
+                Garanito</a></p>
+        <h6>Luoghi correlati</h6>
+        <ul>
+            Here are **5 stunning places with breathtaking waterfalls**:
 
-    <p>Tucked away in the heart of Madeira’s breathtaking landscapes, this magnificent waterfall is a must-see for
-        nature lovers and adventure seekers alike. Cascading gracefully down rugged cliffs, it creates a mesmerizing
-        display of mist and motion, set against a backdrop of lush greenery. Whether you’re hiking along scenic trails
-        or capturing stunning photographs, the peaceful ambiance and raw beauty of this natural wonder make it an
-        unforgettable stop on your journey through Madeira.
-    </p>
-    <p>For those seeking an immersive experience, guided tours offer insightful stories about the region’s rich
-        biodiversity and geological history. The surrounding area is perfect for leisurely strolls, picnics, or simply
-        soaking in the tranquil atmosphere. Easily accessible yet wonderfully secluded, this hidden gem is an ideal
-        destination for travelers looking to connect with Madeira’s untamed beauty. Don’t miss the chance to witness one
-        of the island’s most enchanting sights!
-    </p>
+            1. **Iguazu Falls, Argentina/Brazil** 🌿🌊
+            - One of the world's largest waterfall systems, located on the border between Argentina and Brazil, with
+            over 270 cascades surrounded by lush rainforest.
 
-    <ul>
-        <li>Entrance Fee: Visiting the waterfall is free, but guided tours range from €20 to €50 per person.</li>
-        <li>Visiting Hours: Accessible all day, but the best time to visit is between 9:00 AM and 6:00 PM for optimal
-            lighting and safety.</li>
-        <li>Transportation: Car rentals from Funchal start at €30 per day, or you can take local buses with tickets
-            costing around €3-5.</li>
-    </ul>
+            2. **Plitvice Lakes National Park, Croatia** 🇭🇷💦
+            - A UNESCO World Heritage Site, featuring stunning turquoise lakes and a series of cascading waterfalls
+            connected by wooden walkways.
 
-    <form onsubmit="alert('form inviato')">
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required>
+            3. **Victoria Falls, Zambia/Zimbabwe** 🌍🌊
+            - Known as "The Smoke That Thunders," this powerful waterfall on the Zambezi River is one of the largest in
+            the world.
 
-        <label for="message">Message:</label>
-        <textarea id="message" name="message" rows="4" required></textarea>
+            4. **Seljalandsfoss, Iceland** ❄️🏞️
+            - A breathtaking waterfall where visitors can walk behind the cascading water for a unique and immersive
+            experience.
 
-        <button type="submit">Submit</button>
-    </form>
+            5. **Angel Falls, Venezuela** 🌄💧
+            - The world's tallest uninterrupted waterfall, plunging **3,212 feet (979 meters)** from a tabletop mountain
+            in Canaima National Park.
+
+            Which one would you love to visit first? 😍
+            <li>Entrance Fee: Visiting the waterfall is free, but guided tours range from €20 to €50 per person.</li>
+            <li>Visiting Hours: Accessible all day, but the best time to visit is between 9:00 AM and 6:00 PM for
+                optimal
+                lighting and safety.</li>
+            <li>Transportation: Car rentals from Funchal start at €30 per day, or you can take local buses with tickets
+                costing around €3-5.</li>
+        </ul>
+
+
+        <p>Tucked away in the heart of Madeira’s breathtaking landscapes, this magnificent waterfall is a must-see for
+            nature lovers and adventure seekers alike. Cascading gracefully down rugged cliffs, it creates a mesmerizing
+            display of mist and motion, set against a backdrop of lush greenery. Whether you’re hiking along scenic
+            trails
+            or capturing stunning photographs, the peaceful ambiance and raw beauty of this natural wonder make it an
+            unforgettable stop on your journey through Madeira.
+        </p>
+        <p>For those seeking an immersive experience, guided tours offer insightful stories about the region’s rich
+            biodiversity and geological history. The surrounding area is perfect for leisurely strolls, picnics, or
+            simply
+            soaking in the tranquil atmosphere. Easily accessible yet wonderfully secluded, this hidden gem is an ideal
+            destination for travelers looking to connect with Madeira’s untamed beauty. Don’t miss the chance to witness
+            one
+            of the island’s most enchanting sights!
+        </p>
+
+
+
+        <form onsubmit="alert('form inviato')">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
 </body>
 
 </html>
